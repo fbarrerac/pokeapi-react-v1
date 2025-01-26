@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #1e1e2e; /* Fondo oscuro */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container__form {
+  background-color: #252535; /* Fondo oscuro para el formulario */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #d7dae0; /* Gris claro para el texto */
+}
+
+.form input[type="radio"] {
+  accent-color: #3b4cca; /* Color personalizado para el radio */
+}
+
+.form input[type="text"] {
+  padding: 1rem; /* Aumenta el padding para mayor espacio */
+  background-color: #2b2b3d;
+  color: #c3c7d1;
+  border: 1px solid #3e3e55;
+  border-radius: 0.5rem;
+  font-size: 0.8rem; /* Aumenta el tamaño de la fuente */
+  transition: border 0.3s ease;
+  width: 100%; /* Asegura que el campo ocupe todo el ancho disponible */
+}
+
+.form input[type="text"]:focus {
+  border-color: #a6e3a1;
+}
+
+.form button {
+  padding: 0.8rem;
+  background-color: #414167; /* Fondo oscuro con un toque de color */
+  color: #d7dae0; /* Texto claro */
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #3b4cca; /* Fondo azul al hacer hover */
+}
+
+.container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container section p {
+  font-size: 2.5rem;
+  color: #d7dae0;
+}
+
+.container__form .form div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container__form .form div input[type="text"] {
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.container__form .form div label {
+  font-weight: bold;
+}
+
+.container__form .form div button {
+  padding: 0.8rem;
+  background-color: #3b4cca;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
