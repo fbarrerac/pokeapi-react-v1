@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className={styles.nav}>
         <Link to={"/"} className={styles.nav__logo}>
           <img
-            src="../public/pokeball.png"
+            src="/pokeapi-react-v1/pokeball.png"
             alt="Logo - Pokeball"
             className={styles.nav__img}
           />

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 3rem 2rem;
-  background-color: #1e1e2e; /* Fondo oscuro */
+  background-color: #1e1e2e;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -20,7 +20,7 @@
 }
 
 .container__form {
-  background-color: #252535; /* Fondo oscuro para el formulario */
+  background-color: #252535;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -42,22 +42,22 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  color: #d7dae0; /* Gris claro para el texto */
+  color: #d7dae0;
 }
 
 .form input[type="radio"] {
-  accent-color: #3b4cca; /* Color personalizado para el radio */
+  accent-color: #3b4cca;
 }
 
 .form input[type="text"] {
-  padding: 1rem; /* Aumenta el padding para mayor espacio */
+  padding: 1rem;
   background-color: #2b2b3d;
   color: #c3c7d1;
   border: 1px solid #3e3e55;
   border-radius: 0.5rem;
-  font-size: 0.8rem; /* Aumenta el tamaño de la fuente */
+  font-size: 0.8rem;
   transition: border 0.3s ease;
-  width: 100%; /* Asegura que el campo ocupe todo el ancho disponible */
+  width: 100%;
 }
 
 .form input[type="text"]:focus {
@@ -66,8 +66,8 @@
 
 .form button {
   padding: 0.8rem;
-  background-color: #414167; /* Fondo oscuro con un toque de color */
-  color: #d7dae0; /* Texto claro */
+  background-color: #414167;
+  color: #d7dae0;
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -76,7 +76,7 @@
 }
 
 .form button:hover {
-  background-color: #3b4cca; /* Fondo azul al hacer hover */
+  background-color: #3b4cca;
 }
 
 .container section {
@@ -113,4 +113,10 @@
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+}
+
+@media (width < 650px) {
+  .container__grid {
+    grid-template-columns: auto;
+  }
 }
