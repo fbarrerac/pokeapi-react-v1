@@ -5,7 +5,7 @@ import { useState } from "react";
 import styles from "../Styles/CardContainer.module.css";
 
 const Home = (data) => {
-  const FirstUrl = "https://pokeapi.co/api/v2/pokemon?limit=100";
+  const FirstUrl = "https://pokeapi.co/api/v2/pokemon?limit=30";
 
   const [firstPokemons, setFirstPokemons] = useState([]);
   const [firstData, setFirstData] = useState([]);
